@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+    /* Typography */
+    --font-sans: var(--font-sans);
+    /* Nunito Sans (via next/font) */
+    --font-serif: var(--font-serif);
+    /* Playfair Display (via next/font) */
+
+    /* Colors */
+    --color-brand-blue: #2563eb;
+    /* Primary Blue */
+    --color-brand-blue-light: #3b82f6;
+    /* Accent Blue (hover, links, buttons) */
+    --color-brand-bg: #ffffff;
+    /* Background White */
+    --color-brand-surface: #f9fafb;
+    /* Soft Gray (cards, sections) */
+    --color-brand-text: #111827;
+    /* Dark Gray text */
+    --color-brand-muted: #6b7280;
+    /* Muted text */
+
+    /* Radius (optional, for softer UI) */
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    --radius-2xl: 1.5rem;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
